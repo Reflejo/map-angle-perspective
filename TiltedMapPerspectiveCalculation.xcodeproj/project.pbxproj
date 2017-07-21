@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26F675BD1F217C4900BA0AB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F675BC1F217C4900BA0AB7 /* AppDelegate.swift */; };
+		26F675BF1F217C4900BA0AB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F675BE1F217C4900BA0AB7 /* ViewController.swift */; };
+		26F675C21F217C4900BA0AB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F675C01F217C4900BA0AB7 /* Main.storyboard */; };
+		26F675C41F217C4900BA0AB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26F675C31F217C4900BA0AB7 /* Assets.xcassets */; };
+		26F675C71F217C4900BA0AB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F675C51F217C4900BA0AB7 /* LaunchScreen.storyboard */; };
+		F3AD085DA565D81874290CBC /* Pods_TiltedMapPerspectiveCalculation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F49536EE9016B01CED207EA /* Pods_TiltedMapPerspectiveCalculation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26F675B91F217C4900BA0AB7 /* TiltedMapPerspectiveCalculation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TiltedMapPerspectiveCalculation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26F675BC1F217C4900BA0AB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26F675BE1F217C4900BA0AB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		26F675C11F217C4900BA0AB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26F675C31F217C4900BA0AB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26F675C61F217C4900BA0AB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26F675C81F217C4900BA0AB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F49536EE9016B01CED207EA /* Pods_TiltedMapPerspectiveCalculation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TiltedMapPerspectiveCalculation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59EEA351B5F2182F266F512A /* Pods-TiltedMapPerspectiveCalculation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiltedMapPerspectiveCalculation.release.xcconfig"; path = "Pods/Target Support Files/Pods-TiltedMapPerspectiveCalculation/Pods-TiltedMapPerspectiveCalculation.release.xcconfig"; sourceTree = "<group>"; };
+		685154611900C297F9BC9624 /* Pods-TiltedMapPerspectiveCalculation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiltedMapPerspectiveCalculation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TiltedMapPerspectiveCalculation/Pods-TiltedMapPerspectiveCalculation.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26F675B61F217C4900BA0AB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3AD085DA565D81874290CBC /* Pods_TiltedMapPerspectiveCalculation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F9E5997DFB95948339AC9DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F49536EE9016B01CED207EA /* Pods_TiltedMapPerspectiveCalculation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26F675B01F217C4900BA0AB7 = {
+			isa = PBXGroup;
+			children = (
+				26F675BB1F217C4900BA0AB7 /* TiltedMapPerspectiveCalculation */,
+				26F675BA1F217C4900BA0AB7 /* Products */,
+				83E01DCC307B5644EBBF2404 /* Pods */,
+				0F9E5997DFB95948339AC9DB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		26F675BA1F217C4900BA0AB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26F675B91F217C4900BA0AB7 /* TiltedMapPerspectiveCalculation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26F675BB1F217C4900BA0AB7 /* TiltedMapPerspectiveCalculation */ = {
+			isa = PBXGroup;
+			children = (
+				26F675BC1F217C4900BA0AB7 /* AppDelegate.swift */,
+				26F675BE1F217C4900BA0AB7 /* ViewController.swift */,
+				26F675C01F217C4900BA0AB7 /* Main.storyboard */,
+				26F675C31F217C4900BA0AB7 /* Assets.xcassets */,
+				26F675C51F217C4900BA0AB7 /* LaunchScreen.storyboard */,
+				26F675C81F217C4900BA0AB7 /* Info.plist */,
+			);
+			path = TiltedMapPerspectiveCalculation;
+			sourceTree = "<group>";
+		};
+		83E01DCC307B5644EBBF2404 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				685154611900C297F9BC9624 /* Pods-TiltedMapPerspectiveCalculation.debug.xcconfig */,
+				59EEA351B5F2182F266F512A /* Pods-TiltedMapPerspectiveCalculation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26F675B81F217C4900BA0AB7 /* TiltedMapPerspectiveCalculation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26F675CB1F217C4900BA0AB7 /* Build configuration list for PBXNativeTarget "TiltedMapPerspectiveCalculation" */;
+			buildPhases = (
+				30A4ED3D3EA10299EE7D6061 /* [CP] Check Pods Manifest.lock */,
+				26F675B51F217C4900BA0AB7 /* Sources */,
+				26F675B61F217C4900BA0AB7 /* Frameworks */,
+				26F675B71F217C4900BA0AB7 /* Resources */,
+				385D1ABD8774E6A52270E56D /* [CP] Embed Pods Frameworks */,
+				F08F92C1B85D3E66250F9659 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TiltedMapPerspectiveCalculation;
+			productName = TiltedMapPerspectiveCalculation;
+			productReference = 26F675B91F217C4900BA0AB7 /* TiltedMapPerspectiveCalculation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26F675B11F217C4900BA0AB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Lyft;
+				TargetAttributes = {
+					26F675B81F217C4900BA0AB7 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+				};
+			};
+			buildConfigurationList = 26F675B41F217C4900BA0AB7 /* Build configuration list for PBXProject "TiltedMapPerspectiveCalculation" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26F675B01F217C4900BA0AB7;
+			productRefGroup = 26F675BA1F217C4900BA0AB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26F675B81F217C4900BA0AB7 /* TiltedMapPerspectiveCalculation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26F675B71F217C4900BA0AB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F675C71F217C4900BA0AB7 /* LaunchScreen.storyboard in Resources */,
+				26F675C41F217C4900BA0AB7 /* Assets.xcassets in Resources */,
+				26F675C21F217C4900BA0AB7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30A4ED3D3EA10299EE7D6061 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		385D1ABD8774E6A52270E56D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TiltedMapPerspectiveCalculation/Pods-TiltedMapPerspectiveCalculation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F08F92C1B85D3E66250F9659 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TiltedMapPerspectiveCalculation/Pods-TiltedMapPerspectiveCalculation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26F675B51F217C4900BA0AB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F675BF1F217C4900BA0AB7 /* ViewController.swift in Sources */,
+				26F675BD1F217C4900BA0AB7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		26F675C01F217C4900BA0AB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26F675C11F217C4900BA0AB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26F675C51F217C4900BA0AB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26F675C61F217C4900BA0AB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26F675C91F217C4900BA0AB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26F675CA1F217C4900BA0AB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26F675CC1F217C4900BA0AB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 685154611900C297F9BC9624 /* Pods-TiltedMapPerspectiveCalculation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S96SGE84F3;
+				INFOPLIST_FILE = TiltedMapPerspectiveCalculation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyft.TiltedMapPerspectiveCalculation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26F675CD1F217C4900BA0AB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59EEA351B5F2182F266F512A /* Pods-TiltedMapPerspectiveCalculation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S96SGE84F3;
+				INFOPLIST_FILE = TiltedMapPerspectiveCalculation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyft.TiltedMapPerspectiveCalculation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26F675B41F217C4900BA0AB7 /* Build configuration list for PBXProject "TiltedMapPerspectiveCalculation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26F675C91F217C4900BA0AB7 /* Debug */,
+				26F675CA1F217C4900BA0AB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26F675CB1F217C4900BA0AB7 /* Build configuration list for PBXNativeTarget "TiltedMapPerspectiveCalculation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26F675CC1F217C4900BA0AB7 /* Debug */,
+				26F675CD1F217C4900BA0AB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26F675B11F217C4900BA0AB7 /* Project object */;
+}
