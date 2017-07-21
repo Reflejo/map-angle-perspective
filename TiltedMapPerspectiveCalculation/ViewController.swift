@@ -22,7 +22,7 @@ final class ViewController: UIViewController {
         let boundsZoom = bounds.zoom(forSize: size, padding: padding)
         let metersPerPixel = self.meterPerPixel(at: bounds.center, zoom: boundsZoom)
 
-        let perspective = -1 / (900.0 * (Double(size.height) / 480.0))
+        let perspective = -1 / (Double(size.height) * 1.875)
         let containerWidth = Double(size.width - padding.left - padding.right)
         let (scaleY, translateY) = self.valuesToFit(width: ceil(horizontalDistance / metersPerPixel),
                                                     height: ceil(verticalDistance / metersPerPixel),
