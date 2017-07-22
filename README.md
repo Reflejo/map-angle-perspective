@@ -60,6 +60,6 @@ Now if we solve the system of equations with all this information we obtain:
 
 ... where `h` is the height of the rect.
 
-![solution-for-t-s-height](https://user-images.githubusercontent.com/232113/28444613-4bce2240-6d73-11e7-83eb-95ef97dd47c3.png)
+![solution-for-t-s-height](https://user-images.githubusercontent.com/232113/28493268-5f36e4d8-6ec8-11e7-900a-a20d873283a8.png)
 
 These four equations is all the math we need to calculate the translation and the scale values. With this we can apply the scale to the bounds distance and calculate the zoom and offset the center using `t` (see implementation)
